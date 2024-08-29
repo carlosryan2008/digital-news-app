@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+  
 }
 
 * {
@@ -94,7 +95,95 @@ section {
   border-color: var(--color-black);
 }
 
+/* Estilos para itens de navegação */
+.nav-item {
+  color: #FFD700; /* Cor dourada */
+  font-weight: bold; /* Opcional: deixa o texto em negrito */
+}
+
+.nav-item.active {
+  color: #FFD700; /* Cor dourada para o item ativo */
+}
+
+.nav-icon {
+  color: #FFD700; /* Cor dourada para os ícones */
+}
+
+.bi-twitter-x,
+.bi-facebook,
+.bi-instagram,
+.bi-search {
+  font-size: 20px !important;
+  color: #dab903 !important;
+}
+
+.bi-twitter-x:hover,
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-search:hover {
+  color: #000 !important;
+}
+
+/* posts.css */
+
+.posts .top-posts {
+  /* Estilos específicos para a coluna dos posts top */
+  padding: 20px; /* Ajuste conforme necessário */
+}
+
+.posts .trending-posts, .posts .non-trending-top-posts {
+  padding: 20px; /* Ajuste conforme necessário */
+}
+
+/* Ajustes adicionais para garantir um bom espaçamento */
+.row.g-5 {
+  margin-top: 20px;
+}
+
+.title-margin-right {
+  margin-left: 20px; /* Ajuste o valor conforme necessário */
+}
+
+
 /*--------------------------------------------------------------
 # Not Found Page
 --------------------------------------------------------------*/
 
+.not-found {
+  padding: 0;
+  background: url('../../public/assets/img/not-found-bj.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.cover-background {
+  position: relative !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+
+.error-page {
+  background-color: #bababa4a;
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(234, 234, 235, 0.2);
+  padding: 80px 20px;
+}
+.text-center {
+  text-align: center !important;
+}
+.error-page h1 {
+  font-size: 200px;
+  line-height: 1;
+  font-weight: 600;
+}
+.text-secondary {
+  color: #15395a !important;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}

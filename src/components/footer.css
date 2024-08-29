@@ -1,0 +1,120 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer {
+    background-color:#d7d8d7; /* Cor de fundo escura e elegante */
+    color: #000000; /* Texto claro para contraste */
+    padding: 40px 0;
+    border-top: 5px solid #ced2d6;/* Borda superior com cor de destaque */
+  }
+  
+  .footer h5 {
+    color: #333131;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .footer p {
+    color: rgba(26, 27, 27, 0.8);
+    line-height: 1.6;
+  }
+  
+  .footer a {
+    color: #1f2020; /* Cor dos links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ecf0f1; /* Cor dos links ao passar o mouse */
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    font-size: 16px;
+  }
+  
+  .footer .btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .footer .btn:hover {
+    background-color: #2980b9;
+    color: #ecf0f1;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer .row {
+    margin-bottom: 20px;
+  }
+  
+  .footer .row.mt-4 {
+    margin-top: 20px;
+    color: #000000;
+  }
+  
+  .footer .text-center {
+    text-align: center;
+  }
+  
+  .footer .text-center p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(236, 240, 241, 0.8);
+  }
+  
+  .footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .footer .social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #34495e; /* Cor de fundo dos ícones sociais */
+    color: #ecf0f1;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer .social-links a:hover {
+    background-color: #3498db;
+  }
+  .footer .text-center {
+    background-color: #1a1b1b; /* Cor de fundo da seção */
+    color: #ecf0f1; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+  }
+  
+  .footer .text-center p {
+    margin: 0; /* Remove margens padrão do parágrafo */
+  }
+  

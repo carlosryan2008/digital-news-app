@@ -2,6 +2,15 @@
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
+
+.navbar a,
+.navbar a:focus {
+  text-shadow: 0.3px 0.3px 0 rgba(0,0,0, .5);
+  font-family: "Baskervville SC", serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -26,9 +35,9 @@
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: var(--font-primary);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    color: rgba(var(--color-default-rgb), 1);
+    color: #dab903;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -44,7 +53,7 @@
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
-    color: var(--color-default);
+    color: #000;
   }
 
   .navbar .getstarted,
