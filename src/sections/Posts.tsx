@@ -19,6 +19,19 @@ interface Post {
   top: boolean;
 }
 
+export const initialPost = {
+    _id: '',
+    img: '',
+    category: '',
+    date: '',
+    title:'',
+    brief:'',
+    avatar: '',
+    author: '',
+    trending: '',
+    top: '',
+};
+
 export default function Posts() {
   const router = useRouter();
   const [items, setItems] = useState<Post[]>([]);
