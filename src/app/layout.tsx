@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 import type { Metadata } from "next";
 import { EB_Garamond } from "next/font/google";
 import Header from '@/components/Header';
-import Footer from '@/components/Footer'; // Importando o componente Footer
 import "./globals.css";
 import "./variables.css";
 
@@ -38,7 +37,6 @@ export default function RootLayout({
       <body className={ebGaramond.className}>
         <Header />
         {children}
-        <Footer /> {/* Adicionando o componente Footer */}
       </body>
     </html>
   );

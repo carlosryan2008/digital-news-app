@@ -6,7 +6,6 @@ import './Header.css';
 import logo from '../app/logo.png';
 import Nav from './Nav';
 import Sci from './Sci';
-import SearchForm from './SearchForm';
 
 export default function Header() {
 
@@ -34,21 +33,8 @@ export default function Header() {
         <Nav/>
         <div className="position-relative">
           <Sci/>
-          <a className='mx-2 js-search-open' onClick={handleFormOpen}>
-            <span className='bi-search'></span>
-          </a>
+          
 
-          {
-            on ? (
-              <i className='bi bi-x mobile-nav-toggle' onClick={handleToggleMenu}></i>
-              
-            ) :(
-              <i className='bi bi-list mobile-nav-toggle' onClick={handleToggleMenu}></i>
-
-            )
-          }
-
-          <SearchForm active={open} formOpen={handleFormOpen}/>
         </div>
       </div>
     </header>

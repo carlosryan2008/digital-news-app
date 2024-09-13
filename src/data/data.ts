@@ -25,8 +25,8 @@ export const navs = [
     },
     {
       id: 5,
-      name: 'Contatos',
-      link: '/contact',
+      name: 'Conheça o Museu Municipal',
+      link: '/visit',
       active: false,
     },
   ];
